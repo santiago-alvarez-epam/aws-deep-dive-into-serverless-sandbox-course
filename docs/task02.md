@@ -62,7 +62,11 @@ Project path: .
 
 ## Configure lambda with function URL enabled:
 
-
+```bash
+syndicate generate meta api_gateway --resource_name hello_world  --deploy_stage api
+syndicate generate meta api_gateway_resource --api_name hello_world --path /hello
+syndicate generate meta api_gateway_resource_method --api_name hello_world --path /hello --method GET --integration_type lambda --lambda_name hello_world
+```
 
 ## Deployment
 

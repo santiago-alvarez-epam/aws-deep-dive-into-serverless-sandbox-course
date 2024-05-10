@@ -47,7 +47,7 @@ export SDCT_CONF="/Users/santiago_alvarez/Learning/aws-deep-dive-into-serverless
 ## Creating lambda files
 
 ```bash
-syndicate generate lambda --name "hello_world" --runtime "java" --project_path .
+syndicate generate lambda --name "hello_world" --runtime "python" --project_path .
 ```
 
 Output:
@@ -55,7 +55,7 @@ Output:
 ```bash
 Configuration used: /Users/santiago_alvarez/Learning/aws-deep-dive-into-serverless-sandbox-course/task01/.syndicate-config-dev
 Lambda names: ('hello_world',)
-Runtime: java
+Runtime: python
 Project path: .
 2024-05-09 21:35:17,929 [INFO] USER:santiago_alvarez lambda_function.py:146:generate_lambda_function LOG: Lambda hello_world has been successfully added to the project.
 ```
